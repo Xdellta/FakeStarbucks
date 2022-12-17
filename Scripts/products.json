@@ -1,17 +1,19 @@
 {
     "products": [
         {
+            "id": 1,
             "name": "Caramel Frappuccino",
             "Graphic": "product4.png",
-            "Type": "frappuccino",
             "Price": 8.98,
+            "Type": "frappuccino",
             "Opinion": 4.8
         },
         {
+            "id": 2,
             "name": "Świąteczny Kubek",
             "Graphic": "product1.png",
-            "Type": "sorbet",
             "Price": 8.97,
+            "Type": "sorbet",
             "Opinion": 4.4
         }
     ]

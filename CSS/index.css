@@ -157,6 +157,14 @@ header {
     color: var(--DarkGray);
 }
 
+/* Header - Responsive */
+@media only screen and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+}
+
+
 
 /*---------------| Main |---------------*/
 main {
@@ -275,4 +283,11 @@ main {
 .trends_item button:hover {
     cursor: pointer;
     transform: scale(1.03);
+}
+
+/* Main - Responsive */
+@media only screen and (max-width: 1024px) {
+    main {
+        width: 100%;
+    }
 }
