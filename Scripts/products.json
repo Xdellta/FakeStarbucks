@@ -2,19 +2,39 @@
     "products": [
         {
             "id": 1,
-            "name": "Caramel Frappuccino",
+            "name": "Java Chip Cream Frappuccino",
             "Graphic": "product4.png",
             "Price": 8.98,
-            "Type": "frappuccino",
-            "Opinion": 4.8
+            "Type": "Frappuccino",
+            "Opinion": 4.5,
+            "Color": "#408c6c"
         },
         {
             "id": 2,
-            "name": "Świąteczny Kubek",
+            "name": "Strawberry Frappuccino",
+            "Graphic": "product3.png",
+            "Price": 7.25,
+            "Type": "Frappuccino",
+            "Opinion": 5.0,
+            "Color": "#d86474"
+        },
+        {
+            "id": 3,
+            "name": "Strawberry Acai Refresha",
             "Graphic": "product1.png",
             "Price": 8.97,
-            "Type": "sorbet",
-            "Opinion": 4.4
+            "Type": "StarbucksRefresha",
+            "Opinion": 4.3,
+            "Color": "#ff8c64"
+        },
+        {
+            "id": 4,
+            "name": "Cool Lime Refresha",
+            "Graphic": "product2.png",
+            "Price": 6.77,
+            "Type": "StarbucksRefresha",
+            "Opinion": 4.6,
+            "Color": "#f8c474"
         }
     ]
 }

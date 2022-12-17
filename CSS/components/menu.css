@@ -87,7 +87,7 @@ nav {
 #nav_3 a:hover {
     cursor: pointer;
     transform: scale(1.04);
-    color: var(--Orange);
+    color: #408c6c;
 }
 
 /*--------------| Nav: BurgerIcon |-------------*/
