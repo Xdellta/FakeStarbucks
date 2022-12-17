@@ -208,16 +208,6 @@ main {
     justify-content: center;
 }
 
-#trends_item1 > div {
-    background-color: #f8c474;
-}
-#trends_item2 > div {
-    background-color: #d86474;
-}
-#trends_item3 > div {
-    background-color: #408c6c;
-}
-
 .trends_item > div > i {
     position: absolute;
     font-size: 160px;

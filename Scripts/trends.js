@@ -22,7 +22,7 @@ fetch('Scripts/products.json').then(response => response.json()).then(data => {
     const trendsItem2 = document.getElementById('trends_item2');
 
     trendsItem2.innerHTML = `
-        <div>
+        <div style="background-color: ${product2.Color}">
             <i class="fa-solid fa-coffee-beans"></i>
             <img src="Images/Products/${product1.Graphic}" alt="">
 
@@ -42,7 +42,7 @@ fetch('Scripts/products.json').then(response => response.json()).then(data => {
     const trendsItem3 = document.getElementById('trends_item3');
 
     trendsItem3.innerHTML = `
-        <div>
+        <div style="background-color: ${product2.Color}">
             <i class="fa-solid fa-coffee-beans"></i>
             <img src="Images/Products/${product2.Graphic}" alt="">
 
@@ -62,7 +62,7 @@ fetch('Scripts/products.json').then(response => response.json()).then(data => {
     const trendsItem1 = document.getElementById('trends_item1');
 
     trendsItem1.innerHTML = `
-        <div>
+        <div style="background-color: ${product3.Color}">
             <i class="fa-solid fa-coffee-beans"></i>
             <img src="Images/Products/${product3.Graphic}" alt="">
 
