@@ -42,6 +42,7 @@ nav {
 
 #nav_2 a:hover {
     transform: scale(1.04);
+    color: var(--DarkBlue);
 }
 
 /*--------------| Nav: section 3 |--------------*/
@@ -74,6 +75,7 @@ nav {
 #searchBtn:hover {
     cursor: pointer;
     transform: scale(1.05);
+    color: var(--DarkBlue);
 }
 
 #shopBtn {
