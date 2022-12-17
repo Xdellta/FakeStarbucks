@@ -1,40 +1,38 @@
-{
-    "products": [
-        {
-            "id": 1,
-            "name": "Java Chip Cream Frappuccino",
-            "Graphic": "product4.png",
-            "Price": 8.98,
-            "Type": "Frappuccino",
-            "Opinion": 4.5,
-            "Color": "#408c6c"
-        },
-        {
-            "id": 2,
-            "name": "Strawberry Frappuccino",
-            "Graphic": "product3.png",
-            "Price": 7.25,
-            "Type": "Frappuccino",
-            "Opinion": 5.0,
-            "Color": "#d86474"
-        },
-        {
-            "id": 3,
-            "name": "Strawberry Acai Refresha",
-            "Graphic": "product1.png",
-            "Price": 8.97,
-            "Type": "StarbucksRefresha",
-            "Opinion": 4.3,
-            "Color": "#ff8c64"
-        },
-        {
-            "id": 4,
-            "name": "Cool Lime Refresha",
-            "Graphic": "product2.png",
-            "Price": 6.77,
-            "Type": "StarbucksRefresha",
-            "Opinion": 4.6,
-            "Color": "#f8c474"
-        }
-    ]
-}
+[
+    {
+        "Id": 1,
+        "Name": "Java Chip Frappuccino",
+        "Graphic": "product4.png",
+        "Price": 8.98,
+        "Type": "Frappuccino",
+        "Opinion": 4.5,
+        "Color": "#408c6c"
+    },
+    {
+        "Id": 2,
+        "Name": "Strawberry Frappuccino",
+        "Graphic": "product3.png",
+        "Price": 7.25,
+        "Type": "Frappuccino",
+        "Opinion": 5,
+        "Color": "#d86474"
+    },
+    {
+        "Id": 3,
+        "Name": "Strawberry Acai Refresha",
+        "Graphic": "product1.png",
+        "Price": 8.97,
+        "Type": "StarbucksRefresha",
+        "Opinion": 4.3,
+        "Color": "#ff8c64"
+    },
+    {
+        "Id": 4,
+        "Name": "Cool Lime Refresha",
+        "Graphic": "product2.png",
+        "Price": 6.77,
+        "Type": "StarbucksRefresha",
+        "Opinion": 4.6,
+        "Color": "#f8c474"
+    }
+]
