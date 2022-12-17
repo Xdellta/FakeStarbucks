@@ -1,0 +1,77 @@
+nav {
+    width: 90%;
+    height: 75px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*--------------| Nav: section 1 |--------------*/
+#nav_1 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--DarkBlue);
+}
+
+#nav_1 img {
+    height: 100%;
+    margin-right: 10px;
+}
+
+#nav_1 h1 {
+    font-family: 'Kenia', cursive;
+    font-size: 45px;
+}
+
+/*--------------| Nav: section 2 |--------------*/
+#nav_2 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav_2 a {
+    text-decoration: none;
+    color: var(--DarkGray);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#nav_2 a:hover {
+    transform: scale(1.04);
+}
+
+/*--------------| Nav: section 3 |--------------*/
+#nav_3 {
+    display: flex;
+    align-items: center;
+    width: 17%;
+}
+
+#nav_3 input {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    border-radius: 40px;
+    border: 1px solid rgb(236,220,212);
+    outline: none;
+    box-shadow: 0 0 3px rgb(236,220,212);
+    box-shadow: 0px 0px 30px 7px #f8e4dc;
+    padding: 0 20px 0 54px;
+    font-size: 20px;
+}
+
+#searchBtn {
+    position: absolute;
+    margin-left: 18px;
+    font-size: 24px;
+    color: var(--DarkGray);
+}
+
+#searchBtn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
