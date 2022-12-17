@@ -179,10 +179,12 @@ main {
 /*-----------| Main: Trends |-----------*/
 #Trends {
     width: 100%;
-    height: 250px;
+    height: 280px;
     background-color: var(--DarkBlue);
     border-top-left-radius: 20%;
     border-top-right-radius: 50%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 40%;
     display: flex;
     justify-content: space-evenly;
 }
