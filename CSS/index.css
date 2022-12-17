@@ -275,14 +275,18 @@ main {
     font-size: 20px;
 }
 
-.trends_item button span {
+.trends_item button:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.trends_item button > span {
     font-weight: bold;
     color: whitesmoke;
 }
 
-.trends_item button:hover {
-    cursor: pointer;
-    transform: scale(1.03);
+.trends_item button:hover span {
+    color: var(--Orange);
 }
 
 /* Main - Responsive */
