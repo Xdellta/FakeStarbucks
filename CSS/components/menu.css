@@ -78,13 +78,13 @@ nav {
     color: var(--DarkBlue);
 }
 
-#shopBtn {
+#nav_3 a {
     color: var(--DarkGray);
     font-size: 38px;
     margin-left: 5%;
 }
 
-#shopBtn:hover {
+#nav_3 a:hover {
     cursor: pointer;
     transform: scale(1.04);
     color: #408c6c;
