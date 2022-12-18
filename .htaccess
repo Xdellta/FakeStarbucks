@@ -1,0 +1,4 @@
+ErrorDocument 404 /404
+
+RewriteRule StronaGłówna index.html
+RewriteRule 404 404.html
