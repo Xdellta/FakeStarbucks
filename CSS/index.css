@@ -215,16 +215,6 @@ main {
     left: 13px;
 }
 
-#trends_item1 > div > i {
-    color: #e4b061;
-}
-#trends_item2 > div > i {
-    color: #c95363;
-}
-#trends_item3 > div > i {
-    color: #31805f;
-}
-
 .trends_item > div img {
     height: 230px;
     margin-top: -30px;
