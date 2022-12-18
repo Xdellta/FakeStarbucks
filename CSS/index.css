@@ -6,6 +6,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Header: section 1 */
@@ -164,6 +165,73 @@ header {
     }
 }
 
+@media only screen and (max-width: 1150px) {
+    header {
+        height: 1000px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    #header_1 {
+        position: relative;
+        width: 360px;
+        height: max-content;
+        right: -30px;
+        top: -55px;
+    }
+    #header_2 {
+        position: relative;
+        width: 360px;
+        height: max-content;
+        top: 120px;
+        left: -30px;
+    }
+    #header_3 {
+        position: relative;
+        width: 100%;
+        height: max-content;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        top: -90px;
+    }
+
+    /* header-1 */
+    #header_1 h1 {
+        line-height: 57px;
+        font-size: 50px;
+    }
+    #header_1 p {
+        font-size: 19px;
+    }
+    #header_1 h2 {
+        font-size: 48px;
+    }
+    #header_1 button {
+        width: 162px;
+        height: 55px;
+        margin-top: 28px;
+        font-size: 17px;
+    }
+    #header_1 button i {
+        font-size: 21px;
+    }
+
+    /* header-3 */
+    .header_3_item {
+        width: 300px;
+        margin: 0;
+    }
+
+    #header_3_item2 {
+        margin-left: 130px;
+        margin-top: 70px;
+    }
+    #header_3_item3 {
+        margin-right: 170px;
+    }
+}
+
 
 
 /*---------------| Main |---------------*/
@@ -173,6 +241,13 @@ main {
     margin: 100px auto 0 auto;
     display: flex;
     flex-direction: column;
+}
+
+/* Main - Responsive */
+@media only screen and (max-width: 1024px) {
+    main {
+        width: 100%;
+    }
 }
 
 
@@ -270,11 +345,4 @@ main {
 
 .trends_item button:hover span {
     color: var(--Orange);
-}
-
-/* Main - Responsive */
-@media only screen and (max-width: 1024px) {
-    main {
-        width: 100%;
-    }
 }
