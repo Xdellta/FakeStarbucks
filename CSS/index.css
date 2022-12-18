@@ -162,6 +162,7 @@ header {
 @media only screen and (max-width: 1024px) {
     header {
         width: 100%;
+        margin-bottom: -120px;
     }
 }
 
@@ -323,6 +324,7 @@ main {
 /* Item - title */
 .trends_item h1 {
     color: whitesmoke;
+    font-size: 22px;
 }
 
 /* Item - button */
@@ -345,4 +347,51 @@ main {
 
 .trends_item button:hover span {
     color: var(--Orange);
+}
+
+/*--------| Trends: Responsive |--------*/
+@media only screen and (max-width: 1024px) {
+    #Trends {
+        height: 250px;
+    }
+
+    .trends_item {
+        margin-top: -70px;
+    }
+
+    /* emblem */
+    .trends_item > div {
+        width: 170px;
+        height: 170px;
+    }
+
+    .trends_item > div > i {
+        font-size: 130px;
+    }
+    
+    .trends_item > div img {
+        height: 177px;
+        margin-top: -10px;
+    }
+
+    /* opinion */
+    .trends_item_opinion {
+        width: 55px;
+        height: 27px;
+        bottom: 44px;
+    }
+
+    .trends_item_opinion > i {
+        font-size: 15px;
+    }
+
+    /* title */
+    .trends_item h1 {
+        font-size: 18px;
+    }
+
+    /* button */
+    .trends_item button {
+        font-size: 17px;
+    }
 }
