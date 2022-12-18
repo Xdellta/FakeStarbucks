@@ -5,6 +5,7 @@ body, html {
     padding: 0;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    position: relative;
 
     background: rgb(236,220,212);
     background: linear-gradient(90deg, rgba(236,220,212,1) 0%, rgba(244,236,228,1) 100%);
@@ -29,4 +30,20 @@ body, html {
 ::-webkit-scrollbar-thumb {
     background-color: var(--DarkBlue);
     border-radius: 10px;
+}
+
+/*-------------| Background Design |-------------*/
+#backgroundDesign-1 {
+    position: absolute;
+    width: 230px;
+    top: 300px;
+    right: 1570px;
+}
+
+#backgroundDesign-2 {
+    position: absolute;
+    width: 210px;
+    top: 600px;
+    left: 1630px;
+    transform: rotate(190deg);
 }
