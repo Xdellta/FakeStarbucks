@@ -6,8 +6,7 @@
         "Price": 8.98,
         "Type": "Frappuccino",
         "Opinion": 4.5,
-        "Color1": "#408c6c",
-        "Color2": "#31805f"
+        "Color": "#408c6c"
     },
     {
         "Id": 2,
@@ -16,8 +15,7 @@
         "Price": 7.25,
         "Type": "Frappuccino",
         "Opinion": 5,
-        "Color1": "#d86474",
-        "Color2": "#c95363"
+        "Color": "#d86474"
     },
     {
         "Id": 3,
@@ -26,8 +24,7 @@
         "Price": 8.97,
         "Type": "StarbucksRefresha",
         "Opinion": 4.3,
-        "Color1": "#ff8c64",
-        "Color2": "#e6805fbb"
+        "Color": "#ff8c64"
     },
     {
         "Id": 4,
@@ -36,7 +33,6 @@
         "Price": 6.77,
         "Type": "StarbucksRefresha",
         "Opinion": 4.6,
-        "Color1": "#f8c474",
-        "Color2": "#e4b061"
+        "Color": "#f8c474"
     }
 ]

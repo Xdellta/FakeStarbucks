@@ -93,9 +93,9 @@ nav {
 /*--------------| Nav: BurgerIcon |-------------*/
 #burgerIcon {
     display: none;
-    width: 55px;
-    height: 40px;
-    margin-top: 15px;
+    width: 54px;
+    height: 38px;
+    margin-top: 14px;
     flex-direction: column;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0);
@@ -129,11 +129,21 @@ nav {
 
 /*--------------| Nav: Responsive |-------------*/
 @media only screen and (max-width: 1150px) {
+    nav {
+        height: 70px;
+    }
+
     #nav_2, #nav_3 {
         display: none;
     }
 
     #burgerIcon {
         display: flex;
+    }
+
+    /* Logo */
+    #nav_1 h1 {
+        font-family: 'Kenia', cursive;
+        font-size: 41px;
     }
 }
