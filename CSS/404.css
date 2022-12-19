@@ -43,7 +43,8 @@ main a button:hover {
     color: var(--Orange);
 }
 
-/*--------------| Responsive |--------------*/
+/*-------------------| Responsive |-------------------*/
+/*---------------------------------------------------*/
 @media only screen and (max-width: 1024px) {
     main {
         width: 100%;
@@ -66,6 +67,7 @@ main a button:hover {
     }
 }
 
+/*---------| Responsive: 600px |---------*/
 @media only screen and (max-width: 600px) {
     main h1 {
         font-size: 140px;

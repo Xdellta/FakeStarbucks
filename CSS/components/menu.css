@@ -1,3 +1,5 @@
+/*----------------------| Nav |----------------------*/
+/*--------------------------------------------------*/
 nav {
     width: 94%;
     height: 75px;
@@ -7,7 +9,7 @@ nav {
     justify-content: space-between;
 }
 
-/*--------------| Nav: section 1 |--------------*/
+/*-----------| Nav: Section-1 |-----------*/
 #nav_1 {
     display: flex;
     align-items: center;
@@ -25,7 +27,7 @@ nav {
     font-size: 45px;
 }
 
-/*--------------| Nav: section 2 |--------------*/
+/*-----------| Nav: Section-2 |-----------*/
 #nav_2 {
     width: 30%;
     display: flex;
@@ -45,7 +47,7 @@ nav {
     color: var(--Orange);
 }
 
-/*--------------| Nav: section 3 |--------------*/
+/*-----------| Nav: Section-3 |-----------*/
 #nav_3 {
     position: relative;
     display: flex;
@@ -90,7 +92,7 @@ nav {
     color: #408c6c;
 }
 
-/*--------------| Nav: BurgerIcon |-------------*/
+/*-----------| Nav: BurgerIcon |-----------*/
 #burgerIcon {
     display: none;
     width: 54px;
@@ -127,7 +129,8 @@ nav {
     margin-left: 0;
 }
 
-/*--------------| Nav: Responsive |-------------*/
+/*-------------------| Responsive |-------------------*/
+/*---------------------------------------------------*/
 @media only screen and (max-width: 1150px) {
     nav {
         height: 70px;
@@ -141,7 +144,7 @@ nav {
         display: flex;
     }
 
-    /* Logo */
+    /* Responsive: Logo */
     #nav_1 h1 {
         font-family: 'Kenia', cursive;
         font-size: 41px;
