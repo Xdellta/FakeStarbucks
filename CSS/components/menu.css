@@ -134,6 +134,7 @@ nav {
 @media only screen and (max-width: 1150px) {
     nav {
         height: 70px;
+        margin-top: 15px;
     }
 
     #nav_2, #nav_3 {
@@ -146,7 +147,23 @@ nav {
 
     /* Responsive: Logo */
     #nav_1 h1 {
-        font-family: 'Kenia', cursive;
         font-size: 41px;
+    }
+}
+
+/*---------| Responsive: 631px |---------*/
+@media only screen and (max-width: 631px) {
+    nav {
+        height: 55px;
+    }
+
+    #nav_1 h1 {
+        font-size: 36px;
+    }
+
+    #burgerIcon {
+        width: 50px;
+        height: 35px;
+        margin-top: 6px;
     }
 }

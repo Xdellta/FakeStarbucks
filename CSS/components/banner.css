@@ -177,7 +177,7 @@ header {
     header {
         height: 1000px;
         justify-content: center;
-        margin-top: 60px;
+        margin-top: 25px;
     }
 
     #header_1 {
@@ -249,10 +249,10 @@ header {
     }
 
     #header_1 {
-        width: 320px;
+        max-width: 320px;
     }
     #header_2 {
-        width: 360px;
+        max-width: 360px;
         top: 120px;
         left: -30px;
     }
@@ -322,5 +322,103 @@ header {
 
     .header_3_item div i {
         font-size: 40px;
+    }
+}
+
+/*---------| Responsive: 631px |---------*/
+@media only screen and (max-width: 631px) {
+    header {
+        height: 800px;
+        margin: 0 0 130px 0;
+        flex-direction: column;
+    }
+
+    /* Responsive: Section-1 */
+    #header_1 {
+        max-width: 270px;
+        margin-left: -30%;
+    }
+
+    #header_1 h1 {
+        font-size: 32px;
+    }
+    #header_1 p {
+        font-size: 15px;
+    }
+    #header_1 h2 {
+        font-size: 30px;
+        margin-top: -7px;
+    }
+    #header_1 button {
+        width: 115px;
+        height: 42px;
+        margin-top: 12px;
+        font-size: 12px;
+    }
+    #header_1 button i {
+        font-size: 12px;
+    }
+
+    /* Responsive: Section-2 */
+    #header_2 {
+        max-width: 200px;
+        margin-right: -30%;
+        margin-top: -120px;
+    }
+
+    #header_2 div {
+        height: 200px;
+    }
+    
+    #header_2 div img {
+        width: 230px;
+        top: -45px;
+        left: -13px;
+    }
+    
+    #header_2_been {
+        font-size: 155px;
+        top: 20px;
+        left: 14px;
+    }
+    
+    #header_2_snow1 {
+        font-size: 35px;
+        right: 30px;
+    }
+    
+    #header_2_snow2 {
+        font-size: 24px;
+        margin-left: -28px;
+        margin-bottom: 7px;
+    }
+
+    /* Responsive: Section-3 */
+    #header_3 {
+        top: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_3_item {
+        max-width: 230px;
+        font-size: 14px;
+    }
+
+    #header_3_item1, #header_3_item3 {
+        margin: 0 0 20px -20%;
+    }
+
+    #header_3_item2 {
+        margin: 0 -20% 20px 0;
+    }
+
+    .header_3_item div {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header_3_item div i {
+        font-size: 33px;
     }
 }
