@@ -20,6 +20,10 @@
     margin-top: -100px;
 }
 
+#trends_item2 {
+    margin-top: -50px;
+}
+
 /*----------| Item: Emblem |----------*/
 .trends_item > div {
     position: relative;
@@ -187,5 +191,70 @@
     /* Responsive: Button */
     .trends_item button {
         font-size: 14px;
+    }
+}
+
+/*---------| Responsive: 631px |---------*/
+@media only screen and (max-width: 631px) {
+    #Trends {
+        height: 650px;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+        border-top-left-radius: 40%;
+        border-top-right-radius: 25%;
+        border-bottom-right-radius: 25%;
+        border-bottom-left-radius: 40%;
+    }
+
+    .trends_item {
+        margin: 0;
+    }
+
+    #trends_item1 {
+        margin: -90px -20% 0 0;
+    }
+    #trends_item2 {
+        margin: 0 0 0 -20%;
+    }
+    #trends_item3 {
+        margin-right: -20%;
+    }
+
+    /* Responsive: Emblem */
+    .trends_item > div {
+        width: 130px;
+        height: 130px;
+    }
+
+    .trends_item > div > i {
+        font-size: 99px;
+    }
+    
+    .trends_item > div img {
+        height: 133px;
+        margin-top: -7px;
+    }
+
+    /* Responsive: Opinion */
+    .trends_item_opinion {
+        width: 47px;
+        height: 23px;
+        bottom: 28px;
+        font-size: 14px;
+    }
+
+    .trends_item_opinion > i {
+        font-size: 11px;
+    }
+
+    /* Responsive: Title */
+    .trends_item h1 {
+        font-size: 15px;
+    }
+
+    /* Responsive: Button */
+    .trends_item button {
+        font-size: 13px;
     }
 }

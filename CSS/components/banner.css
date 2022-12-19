@@ -178,6 +178,7 @@ header {
         height: 1000px;
         justify-content: center;
         margin-top: 25px;
+        margin-bottom: -30px;
     }
 
     #header_1 {
