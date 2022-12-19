@@ -134,7 +134,7 @@ nav {
 @media only screen and (max-width: 1150px) {
     nav {
         height: 70px;
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     #nav_2, #nav_3 {
