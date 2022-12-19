@@ -149,11 +149,7 @@
 /*---------| Responsive: 740px |---------*/
 @media only screen and (max-width: 740px) {
     #Trends {
-        height: 230px;
-    }
-
-    .trends_item {
-        margin-top: -65px;
+        height: 210px;
     }
 
     /* Responsive: Emblem */
