@@ -145,3 +145,51 @@
         font-size: 17px;
     }
 }
+
+/*---------| Responsive: 740px |---------*/
+@media only screen and (max-width: 740px) {
+    #Trends {
+        height: 230px;
+    }
+
+    .trends_item {
+        margin-top: -65px;
+    }
+
+    /* Responsive: Emblem */
+    .trends_item > div {
+        width: 150px;
+        height: 150px;
+    }
+
+    .trends_item > div > i {
+        font-size: 112px;
+    }
+    
+    .trends_item > div img {
+        height: 152px;
+        margin-top: -10px;
+    }
+
+    /* Responsive: Opinion */
+    .trends_item_opinion {
+        width: 51px;
+        height: 25px;
+        bottom: 37px;
+        font-size: 16px;
+    }
+
+    .trends_item_opinion > i {
+        font-size: 13px;
+    }
+
+    /* Responsive: Title */
+    .trends_item h1 {
+        font-size: 16px;
+    }
+
+    /* Responsive: Button */
+    .trends_item button {
+        font-size: 14px;
+    }
+}
