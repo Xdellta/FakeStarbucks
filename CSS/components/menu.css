@@ -133,8 +133,8 @@ nav {
 /*---------------------------------------------------*/
 @media only screen and (max-width: 1150px) {
     nav {
-        height: 70px;
-        margin-top: 10px;
+        height: 68px;
+        margin-top: 5px;
     }
 
     #nav_2, #nav_3 {
@@ -158,7 +158,7 @@ nav {
     }
 
     #nav_1 h1 {
-        font-size: 36px;
+        font-size: 35px;
     }
 
     #burgerIcon {
