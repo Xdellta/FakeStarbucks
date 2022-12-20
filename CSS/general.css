@@ -7,8 +7,8 @@ body, html {
     overflow-x: hidden;
     position: relative;
 
-    background: rgb(236,220,212);
-    background: linear-gradient(90deg, rgba(236,220,212,1) 0%, rgba(244,236,228,1) 100%);
+    background: rgb(216, 195, 185);
+    background: linear-gradient(90deg, rgba(216,195,185,1) 0%, rgba(244,236,228,1) 100%);
     font-family: 'Kanit', sans-serif;
 
     /* Colors */

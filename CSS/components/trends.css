@@ -1,8 +1,9 @@
 /*---------------------| Trends |---------------------*/
 /*---------------------------------------------------*/
 #Trends {
-    width: 100%;
+    width: 1024px;
     height: 280px;
+    margin: 150px auto 0 auto;
     background-color: var(--DarkBlue);
     border-top-left-radius: 20%;
     border-top-right-radius: 50%;
@@ -107,6 +108,8 @@
 @media only screen and (max-width: 1024px) {
     #Trends {
         height: 250px;
+        width: 100%;
+        margin-top: 50px;
     }
 
     .trends_item {
@@ -154,6 +157,7 @@
 @media only screen and (max-width: 740px) {
     #Trends {
         height: 210px;
+        margin-top: 110px;
     }
 
     /* Responsive: Emblem */

@@ -19,7 +19,7 @@
     },
     {
         "Id": 3,
-        "Name": "Strawberry Acai Refresha",
+        "Name": "Strawberry Acai",
         "Graphic": "product1.png",
         "Price": 8.97,
         "Type": "StarbucksRefresha",
@@ -28,7 +28,7 @@
     },
     {
         "Id": 4,
-        "Name": "Cool Lime Refresha",
+        "Name": "Cool Lime",
         "Graphic": "product2.png",
         "Price": 6.77,
         "Type": "StarbucksRefresha",
