@@ -1,6 +1,6 @@
 [
     {
-        "Id": 1,
+        "ID": 1,
         "Name": "Java Chip Frappuccino",
         "Graphic": "product4.png",
         "Price": 8.98,
@@ -9,7 +9,7 @@
         "Color": "#408c6c"
     },
     {
-        "Id": 2,
+        "ID": 2,
         "Name": "Strawberry Frappuccino",
         "Graphic": "product3.png",
         "Price": 7.25,
@@ -18,7 +18,7 @@
         "Color": "#d86474"
     },
     {
-        "Id": 3,
+        "ID": 3,
         "Name": "Strawberry Acai",
         "Graphic": "product1.png",
         "Price": 8.97,
@@ -27,7 +27,7 @@
         "Color": "#ff8c64"
     },
     {
-        "Id": 4,
+        "ID": 4,
         "Name": "Cool Lime",
         "Graphic": "product2.png",
         "Price": 6.77,
