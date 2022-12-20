@@ -16,7 +16,7 @@
     height: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #Menu_title h1 {
@@ -24,13 +24,12 @@
     font-size: 50px;
     text-align: center;
     line-height: 46px;
-    margin: 0 15px 0 15px;
 }
 
 #Menu_title div {
-    width: 37%;
+    width: 35%;
     height: 0;
-    border: 4px dashed var(--DarkBlue);
+    border-top: 7px dashed var(--DarkBlue);
 }
 
 /*----------| Menu: Item |-----------*/
@@ -101,4 +100,123 @@
     border-radius: 10px;
     font-weight: bold;
     font-size: 19px;
+}
+
+
+
+/*-------------------| Responsive |-------------------*/
+/*---------------------------------------------------*/
+@media only screen and (max-width: 1150px) {
+    #Menu_title div {
+        width: 31%;
+    }
+}
+
+/*---------| Responsive: 1024px |---------*/
+@media only screen and (max-width: 1024px) {
+    #Menu {
+        margin-top: 160px;
+        width: 100%;
+    }
+
+    #Menu_title h1 {
+        font-size: 45px;
+    }
+
+    #Menu_title div {
+        width: 30%;
+    }
+
+    .Menu_item {
+        width: 220px;
+        height: 300px;
+        margin: 30px;
+    }
+
+    .Menu_item_data h1 {
+        font-size: 20px;
+    }
+
+    .Menu_item_data_count i {
+        font-size: 18px;
+    }
+
+    .Menu_item_data_count span {
+        width: 28px;
+        height: 29px;
+        margin: 0 11px 0 11px;
+        font-size: 17px;
+    }
+}
+
+/*---------| Responsive: 740px |---------*/
+@media only screen and (max-width: 740px) {
+    #Menu {
+        margin-top: 105px;
+    }
+
+    #Menu_title h1 {
+        font-size: 38px;
+    }
+
+    #Menu_title div {
+        width: 28%;
+    }
+
+    .Menu_item {
+        width: 200px;
+        height: 250px;
+        margin: 25px;
+    }
+
+    .Menu_item_data h1 {
+        font-size: 17px;
+    }
+
+    .Menu_item_data_count i {
+        font-size: 16px;
+    }
+
+    .Menu_item_data_count span {
+        width: 25px;
+        height: 26px;
+        margin: 0 9px 0 9px;
+        font-size: 14px;
+    }
+}
+
+/*---------| Responsive: 631px |---------*/
+@media only screen and (max-width: 631px) {
+    #Menu {
+        margin-top: 80px;
+    }
+
+    #Menu_title h1 {
+        font-size: 32px;
+    }
+
+    #Menu_title div {
+        width: 24%;
+    }
+
+    .Menu_item {
+        width: 170px;
+        height: 180px;
+        margin: 20px;
+    }
+
+    .Menu_item_data h1 {
+        font-size: 14px;
+    }
+
+    .Menu_item_data_count i {
+        font-size: 15px;
+    }
+
+    .Menu_item_data_count span {
+        width: 22px;
+        height: 23px;
+        margin: 0 7px 0 7px;
+        font-size: 11px;
+    }
 }
