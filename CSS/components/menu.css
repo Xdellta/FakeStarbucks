@@ -125,6 +125,7 @@
 
     #Menu_title div {
         width: 30%;
+        border-top: 6px dashed var(--DarkBlue);
     }
 
     .Menu_item {
@@ -161,6 +162,7 @@
 
     #Menu_title div {
         width: 28%;
+        border-top: 5px dashed var(--DarkBlue);
     }
 
     .Menu_item {
@@ -197,6 +199,7 @@
 
     #Menu_title div {
         width: 24%;
+        border-top: 4px dashed var(--DarkBlue);
     }
 
     .Menu_item {
