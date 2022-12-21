@@ -31,7 +31,7 @@ fetch('Scripts/products.json').then(response => response.json()).then(data => {
             </div>
         </div>
         <h1>${product1.Name}</h1>
-        <button>
+        <button data-id-product="${product1.ID}" onclick="addProduct(this)">
             Do koszyka
             <span>+</span>
         </button>
@@ -51,7 +51,7 @@ fetch('Scripts/products.json').then(response => response.json()).then(data => {
             </div>
         </div>
         <h1>${product2.Name}</h1>
-        <button>
+        <button data-id-product="${product2.ID}" onclick="addProduct(this)">
             Do koszyka
             <span>+</span>
         </button>
@@ -71,7 +71,7 @@ fetch('Scripts/products.json').then(response => response.json()).then(data => {
             </div>
         </div>
         <h1>${product3.Name}</h1>
-        <button>
+        <button data-id-product="${product3.ID}" onclick="addProduct(this)">
             Do koszyka
             <span>+</span>
         </button>

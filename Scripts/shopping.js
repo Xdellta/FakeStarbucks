@@ -1,7 +1,6 @@
 // Remove product for shopping in localstorage
 function removeProduct(id) {
     id = id.getAttribute("data-id-product");
-    // Menu local counter
     const menuCounter = document.getElementById(`menuCounter-${id}`);
 
     if (localStorage.getItem(`product_${id}`) == 1) {
@@ -25,7 +24,6 @@ function removeProduct(id) {
 // Add product for shopping in localstorage
 function addProduct(id) {
     id = id.getAttribute("data-id-product");
-    // Menu local counter
     const menuCounter = document.getElementById(`menuCounter-${id}`);
 
     if (localStorage.getItem(`product_${id}`) == null) {
