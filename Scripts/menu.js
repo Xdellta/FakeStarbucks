@@ -22,8 +22,8 @@ fetch('Scripts/products.json').then(response => response.json()).then(data => {
 
                     <div class="Menu_item_data_count">
                         <i class="fa-solid fa-minus" data-id-product="${product.ID}" onclick="removeProduct(this)"></i>
-                        <span>${shopping}</span>
-                        <i class="fa-solid fa-plus" data-id-product="${product.ID}" onclick="addProduct(this)"></i>
+                        <span id="menuCounter-${product.ID}">${shopping}</span>
+                        <i class="fa-solid fa-plus" data-id-product="${product.ID}" onclick="addProduct(this)" onclick="addCount(this)"></i>
                     </div>
                 </div>
             </div>

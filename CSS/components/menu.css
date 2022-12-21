@@ -176,14 +176,14 @@
     }
 
     .Menu_item_data_count i {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .Menu_item_data_count span {
         width: 25px;
         height: 26px;
         margin: 0 9px 0 9px;
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
@@ -205,7 +205,7 @@
     .Menu_item {
         width: 170px;
         height: 180px;
-        margin: 20px;
+        margin: 10px;
     }
 
     .Menu_item_data h1 {
@@ -213,13 +213,13 @@
     }
 
     .Menu_item_data_count i {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .Menu_item_data_count span {
         width: 22px;
         height: 23px;
-        margin: 0 7px 0 7px;
-        font-size: 11px;
+        margin: 0 8px 0 8px;
+        font-size: 13px;
     }
 }
