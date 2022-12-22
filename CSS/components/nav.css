@@ -145,7 +145,7 @@ nav {
     top: 0;
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color: #f8e4dc;
     z-index: 2;
     transform: translateX(330px);
     box-shadow: -17px 0px 13px -21px var(--DarkBlue);
